@@ -180,3 +180,6 @@ qiime cutadapt trim-paired --i-demultiplexed-sequences paired-end-demux.qza --p-
 
 #summarize the data into a .qzv2 to be able to view when the quality scores drop off 
 qiime demux summarize --i-data trimmed-seqs.qza --o-visualization trimmed-seqs2.qzv 
+
+
+#then 
